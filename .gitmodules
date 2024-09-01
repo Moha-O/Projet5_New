@@ -1,0 +1,3 @@
+[submodule "OpenClassroom"]
+	path = OpenClassroom
+	url = https://github.com/Moha-O/OpenClassroom.git

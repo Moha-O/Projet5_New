@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+"" 
+*.pth !text !filter !merge !diff
+*.csv !text !filter !merge !diff
+*.pkl !text !filter !merge !diff
+[[:space:]]sbert_model.pkl[[:space:]] filter=lfs diff=lfs merge=lfs -text
+[[:space:]]chain_classifier.pkl[[:space:]] filter=lfs diff=lfs merge=lfs -text
+=======
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+>>>>>>> e49a4e9cfbef880c13b5d37e8c8087a0cb806d4c
+chain_classifier.pkl filter=lfs diff=lfs merge=lfs -text
